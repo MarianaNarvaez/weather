@@ -8,7 +8,6 @@ This Python script retrieves hourly weather forecast data from the [Open-Meteo A
 - Flattens and transforms nested JSON data into a well-structured `DataFrame`.
 - Extracts and renames relevant fields (e.g., temperature, units, metadata).
 - Visualizes temperature trends for a configurable number of hours (default: 24).
-- Uses clean function separation and development best practices.
 
 ## How It Works
 
@@ -35,9 +34,10 @@ Below is a high-level overview of the script’s architecture:
 
 ## Run the script
 
-    ```python weather.py
+    ```bash
+    python weather.py
 
-    The default coordinates are set to lat=4.0, lon=-10.0. You can modify these inside the main() function.
+The default coordinates are set to lat=4.0, lon=-10.0. You can modify these inside the main() function.
 
 ## Output   
 
