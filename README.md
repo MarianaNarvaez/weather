@@ -24,22 +24,29 @@ The script consists of the following components:
 
 Below is a high-level overview of the script’s architecture:
 
-![Script Architecture](./arquitecture.png)
+![Script Architecture](./images/arquitecture.png)
 
 ## How to Run
 
 1. Make sure you have Python 3 installed.
 2. Install the required dependencies:
    ```bash
-   pip install pandas matplotlib´´´
+   pip install pandas matplotlib
 
 ## Run the script
 
-    ```python weather.py´´´
+    ```python weather.py
 
     The default coordinates are set to lat=4.0, lon=-10.0. You can modify these inside the main() function.
 
 ## Output   
 
 - A printed preview of the structured weather DataFrame
+Example:
+
+![Script Architecture](./images/output_head.png)
+
 - A line chart displaying temperature over time
+Example:
+
+![Script Architecture](./images/final_chart.png)
