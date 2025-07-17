@@ -29,6 +29,7 @@ Below is a high-level overview of the script’s architecture:
 
 1. Make sure you have Python 3 installed.
 2. Install the required dependencies:
+
    ```bash
    pip install pandas matplotlib
 
