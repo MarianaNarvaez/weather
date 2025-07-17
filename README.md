@@ -34,7 +34,6 @@ Below is a high-level overview of the script’s architecture:
 
 ## Run the script
 
-    ```bash
     python weather.py
 
 The default coordinates are set to lat=4.0, lon=-10.0. You can modify these inside the main() function.
